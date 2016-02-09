@@ -1,0 +1,23 @@
+{
+  "name": "AngularJS2",
+  "version": "1.0.0",
+  "author": "Ray Villalobos",
+  "description": "This project is the repository for my course Up and Running with AngularJS2 course on Lynda.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetoftheweb/angular2.git"
+  },
+  "devDependencies": {
+    "angular2": "2.0.0-beta.2",
+    "systemjs": "0.19.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.10.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
