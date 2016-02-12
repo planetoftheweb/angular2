@@ -3,6 +3,7 @@
     <h1>Artist Directory</h1>
     <label *ngIf="name" [innerHTML]="'name: ' + name"></label>
     <input #newArtist
+      [(ngModel)]="name"
       (keyup.enter)="addArtist(newArtist.value); newArtist.value=''"
       (blur)="addArtist(newArtist.value); newArtist.value=''"
     >
