@@ -6,8 +6,10 @@
   </div>
 </div>
 
-<ul class="artistlist cf">
-  <li class="artist cf" #artistContainer (click)="onClick(item, artistContainer)" *ngFor="#item of artists">
+<ul *ngIf="query" class="artistlist cf">
+  <li (click)="showArtist(item); query='';" class="artist cf" *ngFor="#item of artists">
     <artist-item class="content" [artist]=item></artist-item>
   </li>
 </ul>
+
+<artist-details *ngIf="currentArtist" [artist]="currentArtist"></artist-details>
