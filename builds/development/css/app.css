@@ -79,26 +79,6 @@
   transform: scale(1.2);
 }
 
-.artist img {
-  display: block;
-  float: left;
-  width: 60px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.artist info {
-  display: block;
-  float: left;
-  padding-left: 120px !important;
-}
-
-.artist:last-child {
-  border-bottom:none;
-}
-
 .artistinfo {
   position: absolute;
   background: white;

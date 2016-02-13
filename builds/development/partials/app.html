@@ -8,10 +8,6 @@
 
 <ul class="artistlist cf">
   <li class="artist cf" #artistContainer (click)="onClick(item, artistContainer)" *ngFor="#item of artists">
-    <img src="images/{{item.shortname}}_tn.jpg" alt="{{item.name}} Photo">
-    <div class="info">
-      <h2>{{item.name}}</h2>
-      <h3>{{item.reknown}}</h3>
-    </div>
+    <artist-item class="content" [artist]=item></artist-item>
   </li>
 </ul>
