@@ -1,13 +1,7 @@
 import {Component} from 'angular2/core';
+import {Artist} from './artist';
 import {ArtistItemComponent} from './artist-item.component';
 import {ArtistDetailsComponent} from './artist-details.component';
-
-interface Artist {
-    name: string;
-    shortname: string;
-    reknown: string;
-    bio: string;
-}
 
 @Component({
   selector: 'my-app',
