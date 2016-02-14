@@ -7,7 +7,7 @@
 </div>
 
 <ul *ngIf="query" class="artistlist cf">
-  <li (click)="showArtist(item); query='';" class="artist cf" *ngFor="#item of artists">
+  <li (click)="showArtist(item); query='';" class="artist cf" *ngFor="#item of (artists) | find:query">
     <artist-item class="content" [artist]=item></artist-item>
   </li>
 </ul>

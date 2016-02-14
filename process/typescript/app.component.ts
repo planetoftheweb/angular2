@@ -2,11 +2,13 @@ import {Component} from 'angular2/core';
 import {Artist} from './artist';
 import {ArtistItemComponent} from './artist-item.component';
 import {ArtistDetailsComponent} from './artist-details.component';
+import {SearchPipe} from './search-pipe';
 
 @Component({
   selector: 'my-app',
   templateUrl: 'partials/app.html',
   directives: [ArtistItemComponent, ArtistDetailsComponent],
+  pipes: [SearchPipe],
   styleUrls: ['css/app.css']
 })
 
