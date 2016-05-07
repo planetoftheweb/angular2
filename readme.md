@@ -1,5 +1,5 @@
 # Learn AngularJS2: The Basics
-![Learn AngularJS2: The Basics](hero.png)
+[![Learn AngularJS2: The Basics](hero.png)](http://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html)
 This is the repository for my course, [Learn AngularJS2: The Basics](http://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html). The full course is available at [lynda.com](http://lynda.com).
 
 ## Course Description
