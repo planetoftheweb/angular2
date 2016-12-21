@@ -1,4 +1,6 @@
 # Learn AngularJS2: The Basics
+**NOTE:** THere's a new repo for this course which covers the final release of AngularJS2. https://github.com/planetoftheweb/learnangular
+
 [![Learn AngularJS2: The Basics](hero.png)](http://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html)
 This is the repository for my course, [Learn AngularJS2: The Basics](http://www.lynda.com/AngularJS-tutorials/Learn-AngularJS-2-Basics/428058-2.html). The full course is available at [lynda.com](http://lynda.com).
 
