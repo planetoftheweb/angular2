@@ -12,4 +12,4 @@
   </li>
 </ul>
 
-<artist-details *ngIf="currentArtist" [artist]="currentArtist"></artist-details>
+<artist-details *ngIf="currentArtist && !query" [artist]="currentArtist"></artist-details>
